@@ -1,0 +1,14 @@
+
+Explanation for The Spaceship Code
+
+  For the spaceship code, I completed it by adding another tail (right tail), two adjoining cylinders (left and right joint), and an upper component (upper dish) 
+  to the already created bottom and top dishes. 
+  
+  I created the coordinates of the unit cylinder for these parts and performed the various transformations (rotation, scaling, translation) to arrive at the final image. 
+  I also changed the colors of the different parts by changing the numbers in the color function. 
+
+ In order to create a nice trajectory for the spaceship, I introduced a for loop to the “show_object_hierarchy” code and performed a translation and rotation for the spaceship.
+ 
+ I already created a vector array of numbers (a, b, c) containing the different values for the iterations in the for loop
+ and I implemented them while creating the loop. Also, I extended the x-, y-, and z- limits of the plot in order for the trajectory to be visible enough.
+
